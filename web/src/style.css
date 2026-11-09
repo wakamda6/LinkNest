@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+/* Tailwind v4 手动深色模式：跟随 <html class="dark">，而非系统 prefers-color-scheme。
+   访客会话内用工具条切换，不持久化。 */
+@custom-variant dark (&:where(.dark, .dark *));

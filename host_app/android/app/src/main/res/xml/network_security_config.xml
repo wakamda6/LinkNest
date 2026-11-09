@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Host 地址运行时生成；应用层仅允许 RFC1918 IPv4，并强制关闭重定向。 -->
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

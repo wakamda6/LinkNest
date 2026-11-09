@@ -1,0 +1,6 @@
+# Copy this file to key.properties and replace every placeholder locally.
+# key.properties and *.jks are ignored by Git.
+storePassword=replace-with-keystore-password
+keyPassword=replace-with-key-password
+keyAlias=release
+storeFile=../linknest-release.jks
