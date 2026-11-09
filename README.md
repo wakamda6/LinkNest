@@ -11,7 +11,7 @@ LinkNest 是一款开源的局域网照片与视频共享工具。通过手机�
 - 隐私声明：[仓库文档](PRIVACY.md) · [网站版本](https://wakamda.fun/linknest/privacy/)。
 - 问题反馈：[GitHub Issues](https://github.com/wakamda6/LinkNest/issues)。
 
-当前稳定版本为 `1.3.0`。Android 构建、签名和安装说明见[开发环境](docs/07-开发环境.md)。
+当前稳定版本为 `1.4.0`。Android 构建、签名和安装说明见[开发环境](docs/07-开发环境.md)。
 
 ## 主要特点
 
