@@ -5,6 +5,7 @@ import 'app_motion.dart';
 import 'app_ui.dart';
 import 'app_theme.dart';
 import 'native.dart';
+import 'privacy_policy.dart';
 import 'qrcodes.dart';
 import 'settings_state.dart';
 
@@ -59,6 +60,11 @@ class SettingsPage extends StatelessWidget {
             SettingsCard(
               title: '其他',
               tiles: [
+                _ArrowTile(
+                  title: '隐私政策',
+                  icon: FLucideIcons.fileText,
+                  onTap: () => showLinkNestPrivacyPolicy(context),
+                ),
                 _ArrowTile(
                   title: '关于 LinkNest',
                   icon: FLucideIcons.info,

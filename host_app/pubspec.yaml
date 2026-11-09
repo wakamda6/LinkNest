@@ -73,6 +73,7 @@ flutter:
   assets:
     - assets/web/
     - assets/brand/linknest-icon.png
+    - assets/legal/privacy.md
     - assets/fonts/Lora-OFL.txt
     - assets/fonts/Raleway-OFL.txt
 
